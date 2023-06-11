@@ -32,6 +32,10 @@ export const useChatStore = defineStore(
         label: 'Cloudflare',
       },
       {
+        baseUrl: location.origin,
+        label: '本站',
+      },
+      {
         baseUrl: 'https://bing.blogweb3.space',
         label: 'Works',
       },      
